@@ -1,0 +1,86 @@
+body {
+  background-color: white;
+}
+h2 {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 50px;
+
+  background-color: orangered;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+html {
+}
+#Capa {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  background-image: url(https://cdn3.vectorstock.com/i/1000x1000/48/27/urban-silhouettes-on-orange-backgrounds-vector-10004827.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  color: black;
+}
+#Vídeo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#Desenvolvimento {
+  margin: 0px 200px 0px 200px;
+}
+#Primeiro {
+  font-size: 50px;
+}
+.botao {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 100px;
+}
+.bnt {
+  background-color: white;
+  width: 300px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  border: none;
+  border-radius: 1000px;
+  color: rgb(0, 0, 0);
+  transition: all 0.6 ease-in-out 0s;
+  font-size: 20px;
+}
+.bnt:hover {
+    background-color: black;
+  color: white;
+  transform: scale(1.2);
+  box-shadow: 0 0 0px;
+  cursor: grab;
+  border: 2px solid #000;
+}
+footer {
+  background-color: black;
+  color: #f05332;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 50px;
+  font-size: 40px;
+}
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+}
